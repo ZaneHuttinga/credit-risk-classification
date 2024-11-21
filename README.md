@@ -30,13 +30,13 @@ meaning that there are
 Using these numbers, the classification report contains the following figures:
 *accuracy = 0.99
 *for healthy loans:
-    *precision = 1.00
-    *recall = 1.00
-    *F_1 score = 1.00
+  *precision = 1.00
+  *recall = 1.00
+  *F_1 score = 1.00
 *for high-risk loans:
-    *precision = 0.87
-    *recall = 0.95
-    *F_1 score = 0.91
+  *precision = 0.87
+  *recall = 0.95
+  *F_1 score = 0.91
 
 For the precision, accuracy and F_1 score, the macro averages are, respectively, 0.94, 0.97, and 0.95. For all three measures, the weighted average is 0.99.
 
