@@ -22,21 +22,21 @@ The confusion matrix for the model is
 [[18673,    86],
 [   32,   593]]
 meaning that there are
-*18673 loans correctly predicted to be healthy;
-*32 falsely predicted to be healthy;
-*593 correctly predicted to be high-risk;
-*86 falsely predicted to be high-risk.
+* 18673 loans correctly predicted to be healthy;
+* 32 falsely predicted to be healthy;
+* 593 correctly predicted to be high-risk;
+* 86 falsely predicted to be high-risk.
 
 Using these numbers, the classification report contains the following figures:
-*accuracy = 0.99
-*for healthy loans:
-  *precision = 1.00
-  *recall = 1.00
-  *F_1 score = 1.00
-*for high-risk loans:
-  *precision = 0.87
-  *recall = 0.95
-  *F_1 score = 0.91
+* accuracy = 0.99
+* for healthy loans:
+  * precision = 1.00
+  * recall = 1.00
+  * F_1 score = 1.00
+* for high-risk loans:
+  * precision = 0.87
+  * recall = 0.95
+  * F_1 score = 0.91
 
 For the precision, accuracy and F_1 score, the macro averages are, respectively, 0.94, 0.97, and 0.95. For all three measures, the weighted average is 0.99.
 
