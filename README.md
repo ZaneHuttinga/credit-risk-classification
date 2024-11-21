@@ -28,20 +28,20 @@ meaning that there are
 * 86 falsely predicted to be high-risk.
 
 Using these numbers, the classification report contains the following figures:
-* accuracy = 0.99
+* accuracy: 0.99
 * for healthy loans:
-  * precision = 1.00
-  * recall = 1.00
-  * F_1 score = 1.00
+  * precision: 1.00
+  * recall: 1.00
+  * F_1 score: 1.00
 * for high-risk loans:
-  * precision = 0.87
-  * recall = 0.95
-  * F_1 score = 0.91
-* macro averages
+  * precision: 0.87
+  * recall: 0.95
+  * F_1 score: 0.91
+* macro averages:
   * precision: 0.94
   * recall: 0.97
   * F_1 score: 0.95
-* weighted averages
+* weighted averages:
   * precision: 0.99
   * recall: 0.99
   * F_1 score: 0.99
