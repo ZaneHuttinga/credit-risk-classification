@@ -18,10 +18,17 @@ The machine learning process involves the following steps:
 
 ## Results
 
-Using bulleted lists, describe the accuracy scores and the precision and recall scores of all machine learning models.
+The confusion matrix for the model is
+[[18673,    86],
+[   32,   593]]
+meaning that there are 18673 loans correctly predicted to be healthy, 32 falsely predicted to be healthy, 593 correctly predicted to be high-risk, and 86 falsely corrected to be high-risk.
 
-* Machine Learning Model 1:
-    * Description of Model 1 Accuracy, Precision, and Recall scores.
+Using these numbers, the classification report concludes that for healthy loans, the precision, recall and F_1 score are all 1.00. For high-risk loans, the precision is 0.87, the recall is 0.95, and the F_1 score is 0.91.
+
+The accuracy of the F_1 score is 0.99. For the precision, accuracy and F_1 score, the macro averages are, respectively, 0.94, 0.97, and 0.95. For all three measures, the weighted average is 0.99.
 
 ## Summary
 
+As the classification report indicates, the model is excellent at predicting healthy loans. Specifically, with a precision of 1.00, we know that if the model predicts that a loan is healthy, it is virtually guaranteed to be healthy. Furthermore, a recall value of 1.00 indicates that if a loan is actually healthy, it is virtually guaranteed that the model will predict that it is healthy.
+
+However, in general one would expect a firm to care more about correctly predicting high-risk loans. We can see clearly that the model is not quite as good at this, though still reasonably good. The precision tells us that if the model predicts that a loan is high-risk, there is an 87% chance that it actually is high-risk. Perhaps more importantly, the recall tells us that if a loan actually is high-risk, there is a 95% chance that the model will predict that it is high-risk. This means that 5% of high-risk loans will be mislabeled as healthy. Whether this is an acceptable level of risk will depend on a particular firm's specific situation; however, in general this low percentage of missed high-risk loans is a good reason to recommend this model.
