@@ -21,11 +21,24 @@ The machine learning process involves the following steps:
 The confusion matrix for the model is
 [[18673,    86],
 [   32,   593]]
-meaning that there are 18673 loans correctly predicted to be healthy, 32 falsely predicted to be healthy, 593 correctly predicted to be high-risk, and 86 falsely predicted to be high-risk.
+meaning that there are
+*18673 loans correctly predicted to be healthy;
+*32 falsely predicted to be healthy;
+*593 correctly predicted to be high-risk;
+*86 falsely predicted to be high-risk.
 
-Using these numbers, the classification report concludes that for healthy loans, the precision, recall and F_1 score are all 1.00. For high-risk loans, the precision is 0.87, the recall is 0.95, and the F_1 score is 0.91.
+Using these numbers, the classification report contains the following figures:
+*accuracy = 0.99
+*for healthy loans:
+    *precision = 1.00
+    *recall = 1.00
+    *F_1 score = 1.00
+*for high-risk loans:
+    *precision = 0.87
+    *recall = 0.95
+    *F_1 score = 0.91
 
-The accuracy of the F_1 score is 0.99. For the precision, accuracy and F_1 score, the macro averages are, respectively, 0.94, 0.97, and 0.95. For all three measures, the weighted average is 0.99.
+For the precision, accuracy and F_1 score, the macro averages are, respectively, 0.94, 0.97, and 0.95. For all three measures, the weighted average is 0.99.
 
 ## Summary
 
