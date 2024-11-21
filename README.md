@@ -32,6 +32,7 @@ The accuracy of the F_1 score is 0.99. For the precision, accuracy and F_1 score
 While the accuracy, macro averages and weighted averages all look good, they are not the most informative statistics in this context. This is for two reasons:
 * While it is best to correctly predict both healthy and high-risk loans, it is generally more important to predict high-risk loans correctly, since a falsely labeling a high-risk loan could cause a firm to take on more risk than intended, but falsely labeling a healthy loan would not.
 * From the confusion matrix it is clear that the vast majority of loans in the test data are healthy, and the vast majority of those are correctly predicted to be healthy. In particular, this is inflating the weighted average.
+
 We will turn instead to the individual labels.
 
 Again, as the classification report indicates, the model is excellent at predicting healthy loans. Specifically, with a precision of 1.00, we know that if the model predicts that a loan is healthy, it is virtually guaranteed to be healthy. Furthermore, a recall value of 1.00 indicates that if a loan is actually healthy, it is virtually guaranteed that the model will predict that it is healthy.
