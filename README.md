@@ -37,8 +37,14 @@ Using these numbers, the classification report contains the following figures:
   * precision = 0.87
   * recall = 0.95
   * F_1 score = 0.91
-
-For the precision, accuracy and F_1 score, the macro averages are, respectively, 0.94, 0.97, and 0.95. For all three measures, the weighted average is 0.99.
+* macro averages
+  * precision: 0.94
+  * recall: 0.97
+  * F_1 score: 0.95
+* weighted averages
+  * precision: 0.99
+  * recall: 0.99
+  * F_1 score: 0.99
 
 ## Summary
 
